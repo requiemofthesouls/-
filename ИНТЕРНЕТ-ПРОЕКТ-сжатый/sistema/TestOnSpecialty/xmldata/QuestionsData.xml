@@ -1,0 +1,271 @@
+<?xml version='1.0' standalone='yes'?>
+<questions>
+	<question>
+		<text_question>Сколько байт в одном бите</text_question>
+		<type_question>variants</type_question>
+		<orientation>main_image</orientation>
+		<img_data>26.png</img_data>
+        <answers>
+			<answer>
+				<text_answer>32</text_answer>
+                <IsCorrect>0</IsCorrect>
+            </answer>
+                <answer>
+                    <text_answer>8</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>1024</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Нет верного ответа</text_answer>
+                    <IsCorrect>1</IsCorrect>
+                </answer>
+            </answers>
+        	<price>8</price>
+     </question>
+	<question>
+    		<text_question>Какая из приведенных версий Windows вышла раньше других?</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Windows 10</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>01.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Windows XP</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>02.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Windows NT 3.1</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>03.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Windows 95</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>04.png</img_data>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Минимальная единица информации</text_question>
+        	<type_question>variants</type_question>
+			<orientation>main_image</orientation>
+			<img_data>25.png</img_data>
+            <answers>
+                <answer>
+                    <text_answer>Байт</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Бит</text_answer>
+                    <IsCorrect>1</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Символ</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Цифра</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Назовите устройство для получения твердых копий.</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Принтер</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>05.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Сканер</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>06.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Дисковод</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>07.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Веб-камера</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>08.png</img_data>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Чьим именем назван один из языков программирования</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Фортран</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>09.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Герц</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>10.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Паскаль</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>11.png</img_data>
+                </answer>
+				<answer>
+                    <text_answer>Фаренгейт</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>12.png</img_data>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Какой вид компьютера считается стационарным?</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Планшет</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>13.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Ноутбук</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>14.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Фаблет</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>15.png</img_data>
+                </answer>
+				<answer>
+                    <text_answer>Настольный компьютер</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>16.png</img_data>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Какое устройство компьютера выполняет большую часть вычислений</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Искусственный интеллект</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>17.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Процессор</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>18.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Оперативная память</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>19.png</img_data>
+                </answer>
+				<answer>
+                    <text_answer>ОЗУ</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>20.png</img_data>
+                </answer>
+            </answers>
+        	<price>8</price>
+        </question>
+	<question>
+    		<text_question>Какие диски можно стирать и записывать на них файлы заново?</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>CD-R</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>21.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>DVD-RW</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>22.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>DVD-R</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>23.png</img_data>
+                </answer>
+            </answers>
+        	<price>12</price>
+        </question>
+	<question>
+    		<text_question>Для чего используется программа Microsoft Access?</text_question>
+        	<type_question>variants</type_question>
+			<orientation>main_image</orientation>
+			<img_data>24.png</img_data>
+            <answers>
+                <answer>
+                    <text_answer>Для создания таблиц</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Для создания виртуального жеского диска</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+                <answer>
+                    <text_answer>Для создания базы данных</text_answer>
+                    <IsCorrect>1</IsCorrect>
+                </answer>
+				<answer>
+                    <text_answer>Для получения автомной справки</text_answer>
+                    <IsCorrect>0</IsCorrect>
+                </answer>
+            </answers>
+        	<price>12</price>
+        </question>
+	<question>
+    		<text_question>Кто из перечисленых людей считается первым программистом в истории?</text_question>
+        	<type_question>variants</type_question>
+			<orientation>answer_image</orientation>
+            <answers>
+                <answer>
+                    <text_answer>Авгу́ста А́да Кинг (1815 -1852)</text_answer>
+                    <IsCorrect>1</IsCorrect>
+					<img_data>27.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Линус Торвальдс (1969)</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>28.png</img_data>
+                </answer>
+                <answer>
+                    <text_answer>Дональд Эрвин Кнут (1938)</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>29.png</img_data>
+                </answer>
+				<answer>
+                    <text_answer>Ричард Мэттью Столлман (1953)</text_answer>
+                    <IsCorrect>0</IsCorrect>
+					<img_data>30.png</img_data>
+                </answer>
+            </answers>
+        	<price>20</price>
+        </question>
+		
+		
+</questions>

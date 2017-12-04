@@ -1,0 +1,42 @@
+body {
+	margin: 0px;  
+} 
+.attention {
+    font-size: 24px;
+    color: red;
+    font-family: Arial;
+} 
+.par {
+    font-size:18px;
+    font-family: Arial; 
+    text-align: justify;
+    text-indent: 50px; 
+} 
+
+#doc { 
+    width: 95%;        
+    margin: 0 auto;
+}
+
+#header {
+	margin-bottom: 10px;
+} 
+
+#content {
+	background:#D3D3D3; 
+    width: 75%;
+    float: right;
+}
+
+#name {
+	margin-top: 40px;
+    width: 20%;
+    float: left;
+    padding-top: 20px;    
+    padding-bottom: 20px;    
+}
+
+#footer {
+    clear: both;
+}
+

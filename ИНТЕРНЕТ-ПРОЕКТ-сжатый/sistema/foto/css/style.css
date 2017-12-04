@@ -1,0 +1,54 @@
+body {
+	margin: 0px;  
+} 
+.attention {
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+    text-align: center;  
+} 
+.par {
+    font-size:20px;
+    color: red;
+    font-family: Arial;
+    text-align: center;   
+} 
+
+#doc { 
+    width: 98%;        
+    margin: 0 auto;
+}
+
+#header {
+	margin-bottom: 10px;
+} 
+
+#content {
+    width: 69%;
+    float: right;
+}
+
+#name {
+	margin-top: 90px;
+    width: 20%;
+    float: left;
+    padding-top: 20px;    
+    padding-bottom: 20px;    
+}
+
+#footer {
+    clear: both;
+}
+
+#content1 {
+    width: 40%;
+    float: left;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+#content2 {
+    width: 30%;
+    float: right;
+	margin-top: 10px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/jQuizler.css" />
+
+<script type="text/javascript">
+var questions = [
+    {
+        type: "choose",
+        question: "<h3>Как правильно нужно оттаивать мороженое мясо?</h3>",
+        answers: [
+            "В холодной воде",
+            "На воздухе",
+            "В горячей воде",
+			"Теплой водой"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Что означает термин «обвалка мяса»?</h3>",
+        answers: [
+            "Оттаивание мяса",
+            "Обмывание мяса",
+            "Отделение мяса от костей",
+			"Обсушивание мяса"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Сколько раз производят обминку при брожении теста?</h3>",
+        answers: [
+            "2-3",
+            "3-4",
+            "5-6"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Из какого мяса делают котлеты по-киевски?</h3>",
+        answers: [
+            "Из курятины",
+            "Из свинины",
+            "Из говядины"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Выберите температуру выпечки штучных изделий из песочного теста:</h3>",
+        answers: [
+            "230 - 250С",
+            "210 - 220С",
+            "260 - 270С"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Для чего рыбу осетровых пород ошпаривают?</h3>",
+        answers: [
+            "Для пластования",
+            "Для деления на порционные куски",
+            "Для удаления жучек"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Какой алкогольный напиток делают из яблок?</h3>",
+        answers: [
+            "Сидр",
+            "Коньяк",
+            "Сакэ",
+            "Брэнди"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как называется земляной орех?</h3>",
+        answers: [
+            "Кешью",
+            "Арахис",
+			"Фисташка",
+			"Миндаль"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Консервирование с использованием уксусной кислоты - это:</h3>",
+        answers: [
+            "Мочение",
+            "Соление",
+            "Квашение",
+            "Маринование"
+        ],
+        correct: [4]
+    },
+	{
+        type: "choose",
+        question: "<h3>Какое из этих слов то же, что и коврига?</h3>",
+        answers: [
+            "Буханка",
+            "Батон",
+            "Каравай",
+			"Круассан"
+        ],
+        correct: [1]
+    },
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест по специальности "Технология продукции общественного питания"</h3>
+		<p><img src="images/pitanie.jpg" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>

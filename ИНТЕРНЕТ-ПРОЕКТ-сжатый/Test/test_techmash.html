@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/jQuizler.css" />
+
+<script type="text/javascript">
+var questions = [
+    {
+        type: "choose",
+        question: "<h3>Любите ли вы черчение?</h3>",
+        answers: [
+            "Да",
+            "Нет",
+            "Не знаю",
+			"А что это?"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Сколько режущих инструментов может применяться на одном технологическом переходе?</h3>",
+        answers: [
+            "Один",
+            "Сколько угодно",
+            "В зависимости от технических возможностей станка",
+			"Нисколько"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>При каком методе обработки достигается наибольший класс чистоты поверхности (наименьшая шероховатость)?</h3>",
+        answers: [
+            "Чистовое точение",
+            "Чистовое шлифование",
+            "Притирка"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Каким из методов можно получать заготовки из чугуна?</h3>",
+        answers: [
+            "Литьё",
+            "Штамповка",
+            "Прокат"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Коэффициент использования материала определяется как отношение ...</h3>",
+        answers: [
+            "Массы заготовки к массе детали",
+            "Массы детали к массе стружки",
+            "Массы детали к массе заготовки"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>При оформлении комплекта документации на технологический процесс механической обработки в операционной карте не указывают ...</h3>",
+        answers: [
+            "Содержание переходов",
+            "Режимы резания",
+            "Данные о квалификации исполнителя"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>По какой из формул определяют штучно-калькуляционное время выполнения операции?</h3>",
+        answers: [
+            "Т = L<sub> i</sub> / S<sub> м</sub>",
+            "Т = (Топ +Тоб +Тотл) / g",
+            "Т = Тшт + Тпз / n"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Вид подключения электродвигателей?</h3>",
+        answers: [
+            "Кольцо",
+            "Квадрат",
+			"Звезда",
+			"Шина"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Какое из перечисленных отклонений относится к отклонениям от правильной цилиндрической формы в продольном сечении?</h3>",
+        answers: [
+            "Конусообразность",
+            "Овальность",
+            "Огранка"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Какая из технологических баз лишает деталь 2-х степеней свободы?</h3>",
+        answers: [
+            "Установочная",
+            "Направляющая",
+            "Опорная",
+			"Балансировочная"
+        ],
+        correct: [2]
+    },
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест по специальности "Технология машиностроения"</h3>
+		<p><img src="images/tech_mash.jpg" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>
